@@ -7,7 +7,7 @@ function useAuth(code) {
 	const { setAccessToken } = useContext(Context)
 	useEffect(() => {
 		axios.post(`${API_REQUEST}/login`, { code }).then(res => {
-			setAccessToken(res.data.acceessToken)
+			setAccessToken(res.data.accessToken)
 			history.pushState({}, null, "/")
 		})
 		// .catch(() => {

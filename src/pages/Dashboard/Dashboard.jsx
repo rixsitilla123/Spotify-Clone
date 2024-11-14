@@ -7,7 +7,7 @@ import Sidebar from '../../components/Sidebar'
 
 function Dashboard({ code }) {
 	const getCode = useAuth(code)
-	const { acceessToken } = useContext(Context)
+	const { accessToken } = useContext(Context)
 	return (
 		<div className='flex justify-between'>
 			<Navbar />
