@@ -4,7 +4,7 @@ import SpotifyWebApi from 'spotify-web-api-node';
 import { CLIENT_ID } from '../hooks/useEnv';
 import MusicListCard from './MusicListCard';
 
-function MusicList({API, MusicListTitle}) {
+function MusicList({ API, MusicListTitle }) {
 	const { accessToken } = useContext(Context)
 
 	const spotifyApi = new SpotifyWebApi({

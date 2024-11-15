@@ -58,7 +58,12 @@ body {
 }
 
 .bg-login {
-	background-image: linear-gradient(180.00deg, rgb(51, 51, 163) 5.086%,rgb(18, 18, 18) 33.397%);
+	background-image: linear-gradient(180.00deg, #3333a3 5.086%,rgb(18, 18, 18) 33.397%);
+}
+
+.singlePage-music{
+	background-image: linear-gradient(180.00deg, #DDF628 5.086%,rgb(18, 18, 18) 33.397%);
+	background-position-y: 80px;
 }
 
 .active {
@@ -72,3 +77,28 @@ body {
 .music-list-card-item{
 	background-color: rgba(255, 255, 255, 4%);
 }
+
+.PlayerRSWP{
+	background-color: #181818 !important;
+}
+
+._ControlsButtonsRSWP, ._VolumeInlineRSWP, .rswp_progress, .rswp_duration, .ButtonRSWP {
+	color: #fff !important;
+}
+
+._ActionsRSWP > div > div > button{
+	color: #fff !important;
+}
+
+.volume__thumb{
+	background-color: #fff !important;
+}
+
+.slider__thumb{
+	background-color: #fff !important;
+}
+
+.slider__track{
+	background-color: rgb(102, 102, 102) !important;
+}
+

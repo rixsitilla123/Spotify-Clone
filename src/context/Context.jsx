@@ -4,6 +4,8 @@ export const Context = createContext()
 
 export const UniContext = ({ children }) => {
 	const [accessToken, setAccessToken] = useState(null)
-
-	return (<Context.Provider value={{ accessToken, setAccessToken }}>{children}</Context.Provider>)
+	const [play, setPlay] = useState([])
+	const [playing, setPlaying] = useState(false)
+	
+	return (<Context.Provider value={{ accessToken, setAccessToken, play, setPlay, playing, setPlaying }}>{children}</Context.Provider>)
 }

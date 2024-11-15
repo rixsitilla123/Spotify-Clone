@@ -4,7 +4,7 @@ import SidebarItem from './SidebarItem';
 
 function Sidebar() {
 	return (
-		<div className='w-[20%] h-[100vh] bg-[#000] overflow-y-auto pt-[30px] px-[20px]'>
+		<div className='w-[20%] h-[88vh] bg-[#000] overflow-y-auto pt-[30px] px-[20px] pb-[70px]'>
 			<div className="flex items-center justify-between mb-[50px]">
 				<p className="text-[#CCCCCC] text-[20px] leading-[25px] tracking-[1%] font-['CircularStdBold']">Friend Activity</p>
 				<div className="flex items-center gap-[24px]">

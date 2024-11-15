@@ -47,7 +47,7 @@ function Navbar() {
 		},
 	]
 	return (
-		<div className='w-[20%] h-[100vh] py-[72px] px-[34px] bg-[#000] overflow-y-auto'>
+		<div className='w-[20%] h-[88vh] py-[72px] px-[34px] bg-[#000] overflow-y-auto'>
 			<div className="space-y-[24px] mb-[50px]">
 				<NavbarItem path={PATH.home} icon={<HomePageIcon />} title={"Home"} />
 				<NavbarItem path={PATH.search} icon={<SearchPageIcon />} title={"Search"} />
