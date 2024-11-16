@@ -101,4 +101,74 @@ function SidebarIcon3() {
 	)
 }
 
-export { HomePageIcon, SearchPageIcon, LibraryPageIcon, CreatePageIcon, LikePageIcon, ArrowLeftIcon, ArrowRightIcon, SidebarIcon1, SidebarIcon2, SidebarIcon3 }
+function SinglePagePlayIcon() {
+	return (
+		<svg width="24" height="24" viewBox="0 0 22.0646 24.387" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+			<defs />
+			<path id="Polygon 1" d="M21.41 13.28C22.28 12.8 22.28 11.58 21.41 11.1L1.94 0.17C1.08 -0.32 0 0.29 0 1.26L0 23.12C0 24.09 1.08 24.7 1.94 24.21L21.41 13.28Z" fill="#000000" fillOpacity="1.000000" fillRule="nonzero" />
+		</svg>
+	)
+}
+
+function SinglePageLikeIcon() {
+	return (
+		<svg width="39" height="39" viewBox="0 0 39 37.375" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+			<defs />
+			<path id="Vector" d="M19.5 3.09C24.08 -1.18 31.16 -1.04 35.57 3.55C39.98 8.13 40.13 15.44 36.03 20.2L21.23 35.57L19.49 37.37L17.76 35.57L2.96 20.2C-1.14 15.44 -0.99 8.12 3.42 3.55C7.84 -1.03 14.9 -1.18 19.5 3.09ZM4.81 18.52Q3.73 17.24 3.15 15.77Q2.44 13.97 2.5 11.87Q2.55 9.78 3.35 8.02Q4.02 6.53 5.22 5.28Q6.63 3.83 8.34 3.13Q9.79 2.54 11.46 2.5Q13.16 2.45 14.66 2.98Q16.36 3.58 17.79 4.92L19.5 6.5L21.2 4.92Q22.62 3.59 24.3 2.99Q25.81 2.45 27.53 2.5Q29.22 2.54 30.67 3.14Q32.37 3.83 33.77 5.28L33.77 5.28Q34.99 6.55 35.66 8.06Q36.44 9.8 36.49 11.87Q36.55 13.96 35.85 15.75Q35.27 17.24 34.18 18.52L19.49 33.77L4.81 18.52Z" fill="currentColor" fillOpacity="1.000000" fillRule="evenodd" />
+		</svg>
+	)
+}
+
+function SinglePageDownloadIcon() {
+	return (
+		<svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+			<defs>
+				<clipPath id="clip131_2995">
+					<rect id="Download_XS" rx="0.000000" width="51.000000" height="51.000000" transform="translate(0.500000 0.500000)" fill="white" fillOpacity="0" />
+				</clipPath>
+			</defs>
+			<rect id="Download_XS" rx="0.000000" width="51.000000" height="51.000000" transform="translate(0.500000 0.500000)" fill="currentColor" fillOpacity="0" />
+			<g clipPath="url(#clip131_2995)">
+				<circle id="Ellipse 18" cx="26.000000" cy="26.000000" r="19.000000" fill="currentColor" fillOpacity="0" />
+				<circle id="Ellipse 18" cx="26.000000" cy="26.000000" r="17.750000" stroke="currentColor" strokeOpacity="1.000000" strokeWidth="2.500000" />
+				<path id="Line 7 (Stroke)" d="M34.83 28.92L26.88 36.88C26.39 37.37 25.6 37.37 25.11 36.88L17.16 28.92C16.67 28.44 16.67 27.64 17.16 27.16C17.64 26.67 18.44 26.67 18.92 27.16L24.75 32.98L24.75 17C24.75 16.3 25.3 15.75 26 15.75C26.69 15.75 27.25 16.3 27.25 17L27.25 32.98L33.07 27.16C33.55 26.67 34.35 26.67 34.83 27.16C35.32 27.64 35.32 28.44 34.83 28.92Z" fill="currentColor" fillOpacity="1.000000" fillRule="evenodd" />
+			</g>
+		</svg>
+	)
+}
+
+function SinglePageMoreIcon() {
+	return (
+		<svg width="44.000000" height="44.000000" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+			<defs>
+				<clipPath id="clip131_2994">
+					<rect id="Options_XS" rx="0.000000" width="43.000000" height="43.000000" transform="translate(0.500000 0.500000)" fill="currentColor" fillOpacity="0" />
+				</clipPath>
+			</defs>
+			<rect id="Options_XS" rx="0.000000" width="43.000000" height="43.000000" transform="translate(0.500000 0.500000)" fill="currentColor" fillOpacity="0" />
+			<g clipPath="url(#clip131_2994)">
+				<path id="Union" d="" fill="currentColor" fillOpacity="1.000000" fillRule="nonzero" />
+			</g>
+		</svg>
+	)
+}
+
+function SinglePageSearchIcon() {
+	return (
+		<svg width="20" height="20" viewBox="0 0 20.125 20.8438" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+			<defs />
+			<path id="Vector" d="M15.65 14.63L19.83 19.04C20.23 19.46 20.22 20.14 19.8 20.55C19.39 20.95 18.74 20.93 18.34 20.52L14.16 16.1C12.74 17.19 11.13 17.8 9.35 17.91C8.15 17.98 7 17.81 5.88 17.41C4.76 17 3.79 16.43 2.96 15.68C2.12 14.93 1.44 14.01 0.91 12.94C0.38 11.86 0.08 10.71 0.01 9.5C-0.06 8.29 0.1 7.12 0.5 5.98C0.9 4.85 1.47 3.86 2.21 3.01C2.95 2.16 3.85 1.47 4.92 0.93C5.98 0.39 7.11 0.09 8.3 0.01C9.49 -0.06 10.65 0.1 11.77 0.51C12.88 0.91 13.86 1.49 14.69 2.24C15.52 2.99 16.21 3.9 16.73 4.98C17.26 6.06 17.56 7.2 17.64 8.42C17.68 9.18 17.63 9.94 17.48 10.69C17.34 11.44 17.11 12.14 16.8 12.79C16.48 13.45 16.1 14.06 15.65 14.63ZM9.22 15.8C10.14 15.75 11 15.51 11.81 15.09C12.62 14.68 13.31 14.15 13.87 13.5C14.44 12.86 14.87 12.1 15.18 11.23C15.49 10.37 15.62 9.47 15.56 8.54C15.51 7.62 15.28 6.74 14.87 5.92C14.46 5.1 13.94 4.4 13.3 3.83C12.67 3.26 11.92 2.81 11.07 2.5C10.22 2.19 9.34 2.06 8.42 2.12C7.51 2.17 6.65 2.41 5.84 2.82C5.03 3.24 4.34 3.77 3.78 4.42C3.21 5.06 2.77 5.82 2.47 6.68C2.16 7.55 2.03 8.45 2.08 9.37C2.14 10.3 2.37 11.18 2.78 12C3.18 12.82 3.71 13.52 4.34 14.09C4.98 14.66 5.72 15.11 6.58 15.42C7.43 15.73 8.31 15.86 9.22 15.8Z" fill="currentColor" fillOpacity="1.000000" fillRule="nonzero" />
+		</svg>
+	)
+}
+
+function SinglePageSelectArrowIcon() {
+	return (
+		<svg width="14.000000" height="7.000000" viewBox="0 0 14 7" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+			<defs />
+			<path id="Polygon 3" d="M7 7L0 0L14 0L7 7Z" fill="currentColor" fill-opacity="1.000000" fill-rule="nonzero" />
+		</svg>
+	)
+}
+
+export { HomePageIcon, SearchPageIcon, LibraryPageIcon, CreatePageIcon, LikePageIcon, ArrowLeftIcon, ArrowRightIcon, SidebarIcon1, SidebarIcon2, SidebarIcon3, SinglePagePlayIcon, SinglePageLikeIcon, SinglePageDownloadIcon, SinglePageMoreIcon, SinglePageSearchIcon, SinglePageSelectArrowIcon }
