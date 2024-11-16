@@ -166,9 +166,27 @@ function SinglePageSelectArrowIcon() {
 	return (
 		<svg width="14.000000" height="7.000000" viewBox="0 0 14 7" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
 			<defs />
-			<path id="Polygon 3" d="M7 7L0 0L14 0L7 7Z" fill="currentColor" fill-opacity="1.000000" fill-rule="nonzero" />
+			<path id="Polygon 3" d="M7 7L0 0L14 0L7 7Z" fill="currentColor" fillOpacity="1.000000" fillRule="nonzero" />
 		</svg>
 	)
 }
 
-export { HomePageIcon, SearchPageIcon, LibraryPageIcon, CreatePageIcon, LikePageIcon, ArrowLeftIcon, ArrowRightIcon, SidebarIcon1, SidebarIcon2, SidebarIcon3, SinglePagePlayIcon, SinglePageLikeIcon, SinglePageDownloadIcon, SinglePageMoreIcon, SinglePageSearchIcon, SinglePageSelectArrowIcon }
+function SinglePageTableTimeIcon() {
+	return (
+		<svg width="22.000000" height="22.000000" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+			<defs />
+			<path id="Union" d="" fill="#B3B3B3" fillOpacity="1.000000" fillRule="nonzero" />
+		</svg>
+	)
+}
+
+function SinglePageTableLikeIcon() {
+	return (
+		<svg width="21" height="21" viewBox="0 0 21 20.125" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+			<defs />
+			<path id="Vector" d="M10.5 1.66C12.96 -0.64 16.77 -0.56 19.15 1.91C21.52 4.38 21.61 8.31 19.4 10.87L10.49 20.12L1.59 10.87C-0.62 8.31 -0.53 4.37 1.84 1.91C4.22 -0.56 8.02 -0.64 10.5 1.66Z" fill="currentColor" fillOpacity="1.000000" fillRule="nonzero" />
+		</svg>
+	)
+}
+
+export { HomePageIcon, SearchPageIcon, LibraryPageIcon, CreatePageIcon, LikePageIcon, ArrowLeftIcon, ArrowRightIcon, SidebarIcon1, SidebarIcon2, SidebarIcon3, SinglePagePlayIcon, SinglePageLikeIcon, SinglePageDownloadIcon, SinglePageMoreIcon, SinglePageSearchIcon, SinglePageSelectArrowIcon, SinglePageTableTimeIcon, SinglePageTableLikeIcon }
