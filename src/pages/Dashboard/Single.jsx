@@ -27,17 +27,15 @@ function Single() {
 		}
 	}, [accessToken])
 
-	// console.log(singleMusic);
-
 	return (
 		<div className='singlePage-music h-[100vh]'>
 			<NavigateBtn bg={"bg-[#DDF628]"} shadow={"shadow-[#DDF628]"} />
 			<div className="px-[40px] flex space-x-[32px]">
-				{/* <img className='w-[270px] h-[270px]' src={singleMusic.images[0].url} alt="single Music img" width={270} height={270} /> */}
+				{singleMusic?.images && <img className='w-[270px] h-[270px]' src={singleMusic?.images[0].url} alt="single Music img" width={270} height={270} />}
 				<div>
 					<p className="text-[#fff] text-[16px] leading-[20px] tracking-[-2%] font-['CircularStdMedium'] uppercase">{singleMusic.label}</p>
 					<h4 className="text-white text-[70px] leading-[80px] font-['CircularStdBlack'] mb-[12px]">{singleMusic.name}</h4>
-					{/* <p className="text-white text-[20px] leading-[25px] font-['CircularStdBook'] mb-[12px]">{singleMusic.artists[0].name}</p> */}
+					{singleMusic?.artists && <p className="text-white text-[20px] leading-[25px] font-['CircularStdBook'] mb-[12px]">{singleMusic?.artists[0]?.name}</p>}
 					<p className="text-white text-[18px] leading-[23px] font-['CircularStdBold']">{singleMusic.release_date}</p>
 				</div>
 			</div>
